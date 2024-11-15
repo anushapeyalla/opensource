@@ -1,0 +1,6 @@
+kg_of_pulp = int(input())
+pages_per_kg = 1000
+pages_per_notebook = 100
+total_pages = kg_of_pulp * pages_per_kg
+notebooks = total_pages // pages_per_notebook
+print(notebooks)
