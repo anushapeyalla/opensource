@@ -1,0 +1,4 @@
+a, b, c = map(int, input().split())
+available_capacity = c - b
+max_mangoes = available_capacity //a
+print(max_mangoes)
