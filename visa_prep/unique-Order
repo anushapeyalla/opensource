@@ -1,0 +1,5 @@
+N = int(input())
+arr = list(map(int, input().split()))
+result = []
+[result.append(x) for x in arr if x not in result]
+print(*result)
